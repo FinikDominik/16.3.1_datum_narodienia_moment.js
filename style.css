@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    margin-top: 100px;
+    background-color: rgba(28, 27, 27, 0.825);
+}
+/* nadpis inštruktážny */
+body > h2 {       
+    color: greenyellow;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    text-decoration: none;
+    font-size: 21px;
+    overflow-anchor: none;
+    display: block;
+    width: fit-content;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 11px;
+    border-top: 3px solid rgb(123, 200, 145);
+    border-right: 3px solid rgb(123, 200, 145);
+    border-left: 4px solid rgb(17, 96, 39);
+    border-bottom: 4px solid rgb(17, 96, 39);
+    background-color: rgb(16, 142, 24);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(183, 211, 60);
+    box-shadow: 6.3px -6.3px 5px rgb(0 0 194), -6.3px 6.3px 5px rgb(0 0 194);
+}
+form{
+    padding: 0;
+    height: fit-content;
+    min-width: 500px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(16, 17, 19);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px;
+    border: 3px solid greenyellow;
+}
+form > input {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 21px;
+    margin-top: 5px;
+    border-radius: 11px;
+    border-top: 3px solid rgb(123, 200, 145);
+    border-right: 3px solid rgb(123, 200, 145);
+    border-left: 4px solid rgb(17, 96, 39);
+    border-bottom: 4px solid rgb(17, 96, 39);
+    background-color: rgb(10, 229, 25);
+}
+input:hover{
+    background-color:rgb(183, 211, 60); 
+}
+form > label {
+    margin-left: 50px;
+    color: greenyellow;
+    font-size: 20px;
+}
+form > div {
+    position: relative;
+} 
+.Vypis {             /* element kde putuje zápis vysledku z click on button */
+    width: 98%;
+    min-height: 300px;
+    height: auto;
+    padding-top: 20px;
+    background-color: rgb(4, 4, 5);
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px;
+    border: 3px solid greenyellow;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Vypis > p {    /* štýlovanie zápisu vysledku  */
+    display: inline-block;
+    text-align: center;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: greenyellow;
+    font-size: 30px;
+    margin-top: 50px;
+}
+div > h3{       /* Nadpis nad vysledkami */
+    color: greenyellow;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: -12px;
+    font-size: 21px;
+} 
