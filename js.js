@@ -58,5 +58,5 @@ let btn = document.getElementById('btn');
         if(Divcont.innerHTML !== null || "" ) {
             Divcont.innerHTML = "";
         }
-        Divcont.innerHTML += "<p>" + 'Počet dní do narodenín    ' + dni + "<br>" + 'Bude obdobie roka  -     ' + rObdobie + "</p>"; 
+        Divcont.innerHTML += "<p>" + dni + '      dní do narodenín' + "<br>" + 'Obdobie v ktorom si narodený  -     ' + rObdobie + "</p>"; 
     }
